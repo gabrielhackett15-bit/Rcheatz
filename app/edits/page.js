@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
-import '@/styles/style.css';
-import content from '@/data/content.json';
+import '../../styles/style.css;
+import content from '../../data/content.json';
 
 export default function Edits() {
   const edits = content.edits;
