@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
-import '../../data/content.json'
+import '../../styles/style.css'
 import executorsData from '@/data/executors.json';
 import ExecutorCard from '@/components/ExecutorCard';
 
