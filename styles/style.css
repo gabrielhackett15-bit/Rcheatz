@@ -1,0 +1,214 @@
+/* Base Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg1: #1a1a1a;
+  --bg2: #000;
+  --card: #222;
+  --cardHover: #333;
+  --txt: #fff;
+  --accent: #6a11cb;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--txt);
+  background: linear-gradient(180deg, var(--bg1), var(--bg2));
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: #111;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.navbar nav a {
+  color: var(--txt);
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.navbar nav a:hover {
+  color: var(--accent);
+}
+
+/* Hero Section */
+.hero {
+  margin-top: 100px;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #aaa;
+}
+
+/* Quick Links Section */
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: var(--card);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.card a {
+  color: var(--txt);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card:hover {
+  background: var(--cardHover);
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px var(--accent);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: auto;
+  font-size: 14px;
+  color: #888;
+}
+/* Executor cards */
+#executorsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.card {
+  display: block;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Status colors */
+.card.updated   { background: #16a34a; }
+.card.outdated  { background: #9a031e; }
+.card.scam      { background: #d00000; }
+.card.web       { background: #3a86ff; }
+
+/* Hover glow */
+.card.updated:hover   { box-shadow: 0 0 15px #16a34a; transform: translateY(-4px); }
+.card.outdated:hover  { box-shadow: 0 0 15px #9a031e; transform: translateY(-4px); }
+.card.scam:hover      { box-shadow: 0 0 15px #d00000; transform: translateY(-4px); }
+.card.web:hover       { box-shadow: 0 0 15px #3a86ff; transform: translateY(-4px); }
+
+.status {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: normal;
+  background: rgba(0,0,0,0.25);
+}
+
+.recommended {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #ffd60a;
+  font-weight: bold;
+}
+.executors-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.executor-card {
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.executor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Status colors */
+.executor-green {
+  background: linear-gradient(135deg, #00b04b, #1f9c5d);
+}
+.executor-red {
+  background: linear-gradient(135deg, #d70000, #a10000);
+}
+.executor-blue {
+  background: linear-gradient(135deg, #0078ff, #0044cc);
+}
+.executor-darkred {
+  background: linear-gradient(135deg, #660000, #400000);
+}
+
+/* Badge style */
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.2);
+}
+.executor-card a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
