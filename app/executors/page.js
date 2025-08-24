@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
-import '../../styles/style.css'
-import executorsData from '@/data/executors.json';
-import ExecutorCard from '@/components/ExecutorCard';
+import '../../styles/style.css';
+import executorsData from '../../data/executors.json';
+import ExecutorCard from '../../components/ExecutorCard';
 
 export default function Executors() {
   return (
