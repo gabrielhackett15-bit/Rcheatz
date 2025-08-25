@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
-import './styles/style.css';
+import '../../styles/style.css';
 import content from './data/content.json';
 
 export default function Version() {
