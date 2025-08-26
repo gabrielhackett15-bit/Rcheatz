@@ -13,6 +13,10 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "swr": "^2.3.6"
+<<<<<<< HEAD
      "autoprefixer": "^10.4.19"
+=======
+    "autoprefixer": "^10.4.19"
+>>>>>>> 70dcc887e8acb9bd607146bf63ca0cfe2d568a3e
   }
 }
