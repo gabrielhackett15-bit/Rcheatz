@@ -1,11 +1,7 @@
 import Link from 'next/link';
 import Script from 'next/script';
 import Head from 'next/head';
-<<<<<<< HEAD
-import '../../styles/style.css';
-=======
 import '../styles/style.css';
->>>>>>> 70dcc887e8acb9bd607146bf63ca0cfe2d568a3e
 export default function Home() {
   return (
     <>
