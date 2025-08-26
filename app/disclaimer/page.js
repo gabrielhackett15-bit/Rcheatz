@@ -31,7 +31,8 @@ export default function Disclaimer() {
         <div className="card">
           <p>This website only links to executors hosted elsewhere.</p>
           <p>We do not own or distribute executors.</p>
-          <p>All executors are free only. Paid executors are not supported.(???)</p>
+          <p>All executors are free only. Paid executors are not supported.</p>
+          <p>I do not Support OR condone cheats, this was made for jokes and giggless</p>
         </div>
       </section>
     
