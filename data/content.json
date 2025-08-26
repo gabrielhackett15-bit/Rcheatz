@@ -18,10 +18,12 @@
     { "version": "0.11", "note": "Canceled temporarily" },
     { "version": "0.5", "note": "Huge UI update" },
     { "version": "0.53", "note": "Cards match status + release" },
-    { "version": "0.54", "note": "Moved to Neocities" },
-    { "version": "0.6", "note": "Finished rework" },
-    { "version": "0.61", "note": "Moved to Vercel" },
-    { "version": "0.7", "note": "Statfessional release" },
-    { "version": "1.0", "note": "Professional Release" }
+   [
+  { "version": "0.54", "note": "Moved to Neocities" },
+  { "version": "0.6", "note": "Finished rework" },
+  { "version": "0.61", "note": "Moved to Vercel" },
+  { "version": "0.7", "note": "Statfessional release" },
+  { "version": "1.0", "note": "Professional Release" }
+]
   ]
 }
