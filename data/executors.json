@@ -5,10 +5,10 @@
   { "name": "Bunni", "status": "Updated", "note": "", "type": "green", "url": "https://gitlab.com/senz3/bunni-download/-/raw/main/latestbunni.zip?ref_type=heads&inline=false" },
   { "name": "AWP", "status": "Scam", "note": "", "type": "red", "url": "https://rcheatzhub.com/awp" },
   { "name": "Swift", "status": "idk", "note": "", "type": "darkred", "url": "https://getswift.vip" },
-  { "name": "Bypasser", "status": "Web", "note": "", "type": "blue", "url": "rip.linkvertise.lol/" },
-  { "name": "lx63", "status": "Updated", "note": "", "type": "green", "url": "lx63.xyz/" },
-  { "name": "Valex", "status": "Updated", "note": "", "type": "green", "url": "valex.io" },
+  { "name": "Bypasser", "status": "Web", "note": "", "type": "blue", "url": "https://rip.linkvertise.lol/" },
+  { "name": "lx63", "status": "Updated", "note": "", "type": "green", "url": "https://lx63.xyz/" },
+  { "name": "Valex", "status": "Updated", "note": "", "type": "green", "url": "https://valex.io" },
   { "name": "Moon", "status": "idk", "note": "", "type": "darkred", "url": "https://getmoonexecuter.vercel.app" },
   { "name": "Solara", "status": "idk", "note": "", "type": "darkred", "url": "https://rcheatzhub.com/solara" },
   { "name": "VOLCANO", "status": "Updated", "note": "", "type": "green", "url": "https://volcano.wtf" }
-] 
+]
