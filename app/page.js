@@ -37,7 +37,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer>
-        <p>© 2025 RCheatz Hub — v0.7 Statfessional</p>
+        <p>© 2025 RCheatz Hub — v1.0 Professional</p>
       </footer>
     </>
   );
