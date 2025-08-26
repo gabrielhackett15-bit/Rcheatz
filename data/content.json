@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-{
-<<<<<<< HEAD
-  "edits": [
+ "edits": [
     {
       "title": "v0.5 → v1.0",
       "changes": [
@@ -28,10 +25,8 @@
         "<b>Professional Update</b> Yep. Nothing changed? Exactly. Statfessional IS Professional. only that statfessional uses static. professional changed to next.js, only consider this HUGE update because quite literally everything changed in a way, if your apart of the team and have the files you would know"
         "Oh, Forgot to say, but i moved to next.js, i already mentioned that but whatever"
       ]
->>>>>>> ebfaa4a5f7ce999eb8547025a0ee9fc86263a06e
-    }
-  ]
-}  
+   }
+]
   "versions": [
     { "version": "0.1", "note": "Temporary release" },
     { "version": "0.11", "note": "Canceled temporarily" },
