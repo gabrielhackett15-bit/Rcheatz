@@ -38,6 +38,10 @@ export default function Executors() {
           </div>
         </section>
       </main>
+
+      <footer>
+        <p>This is a solo project - Updates aren't guaranteed.</p>
+      </footer>
     </>
   );
 }
