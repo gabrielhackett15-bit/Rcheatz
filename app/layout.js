@@ -1,4 +1,5 @@
 import '../styles/style.css';
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: 'RCheatz Hub',
