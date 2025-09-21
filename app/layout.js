@@ -1,4 +1,6 @@
 import '../styles/style.css';
+import Sidebar from '../components/sidebar.js';
+
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
