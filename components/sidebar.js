@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,6 @@ export default function Sidebar() {
         className="md:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-gray-800 text-white"
         onClick={() => setIsOpen(!isOpen)}
       >
-        {/* Hamburger icon */}
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
@@ -32,7 +31,21 @@ export default function Sidebar() {
                 <a className="block py-2 px-4 rounded hover:bg-gray-700">Executors</a>
               </Link>
             </li>
-            {/* Add more links as needed */}
+            <li className="mb-2">
+              <Link href="/edits">
+                <a className="block py-2 px-4 rounded hover:bg-gray-700">Edits</a>
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/disclaimer">
+                <a className="block py-2 px-4 rounded hover:bg-gray-700">Disclaimer</a>
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/version">
+                <a className="block py-2 px-4 rounded hover:bg-gray-700">Versions</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
