@@ -1,12 +1,12 @@
 import Script from 'next/script';
 import Head from 'next/head';
-import '../styles/style.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>RCheatz Hub • v0.7 Statfessional</title>
+        <title>RCheatz Hub • v1.0 Professional</title>
       </Head>
       
       {/* Navbar */}
