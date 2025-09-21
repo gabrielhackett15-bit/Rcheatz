@@ -224,6 +224,26 @@ footer {
     grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
   }
 }
+/* Mobile-first styles */
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 980px;
+  }
+}
 
 
 
