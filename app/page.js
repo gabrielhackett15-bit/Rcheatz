@@ -1,7 +1,7 @@
-import Link from 'next/link';
 import Script from 'next/script';
 import Head from 'next/head';
 import '../styles/style.css';
+
 export default function Home() {
   return (
     <>
@@ -42,18 +42,3 @@ export default function Home() {
     </>
   );
 }
-import '../styles/style.css';
-import Sidebar from '../components/Sidebar';
-
-function MyApp({ Component, pageProps }) {
-  return (
-    <div className="flex min-h-screen">
-      <Sidebar />
-      <main className="flex-1 md:ml-64">
-        <Component {...pageProps} />
-      </main>
-    </div>
-  );
-}
-
-export default MyApp;
