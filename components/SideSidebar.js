@@ -60,9 +60,9 @@ export default function SideSidebar() {
           <div className="mt-8 pt-6 border-t border-gray-800">
             <h3 className="text-lg font-semibold mb-3">Quick Stats</h3>
             <div className="space-y-2 text-sm text-gray-400">
-              <p>24 Executors Available</p>
+              <p>12 Executors Available</p>
               <p>Last Updated: Today</p>
-              <p>Version: 1.0 Professional</p>
+              <p>Version: 1.5 Professional Alpha</p>
             </div>
           </div>
         </div>
