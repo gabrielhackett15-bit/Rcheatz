@@ -1,4 +1,3 @@
-// I wish a real coder could code this
 // components/SideSidebar.js
 'use client';
 
@@ -10,7 +9,7 @@ export default function SideSidebar() {
 
   return (
     <>
-      {/* Mobile menu button */}
+      {/* Mobile menu button - positioned correctly on screen */}
       <button 
         className="md:hidden fixed top-16 left-4 z-50 p-2 rounded-md bg-gray-800 text-white"
         onClick={() => setIsOpen(!isOpen)}
@@ -21,7 +20,7 @@ export default function SideSidebar() {
       </button>
 
       {/* Side Sidebar */}
-      <div className={`fixed md:sticky top-16 left-0 h-[calc(100vh-4rem)] w-64 bg-gray-900 text-white transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition duration-300 ease-in-out z-40 overflow-y-auto`}>
+      <div className={`fixed md:sticky top-16 left-0 h-[calc(100vh-4rem)] w-64 bg-gray-900 text-white transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition duration-300 ease-in-out z-40 overflow-y-auto border-r border-gray-800`}>
         <div className="p-4">
           <h2 className="text-xl font-bold mb-6">Navigation</h2>
           <ul className="space-y-2">
@@ -60,9 +59,9 @@ export default function SideSidebar() {
           <div className="mt-8 pt-6 border-t border-gray-800">
             <h3 className="text-lg font-semibold mb-3">Quick Stats</h3>
             <div className="space-y-2 text-sm text-gray-400">
-              <p>12 Executors Available</p>
+              <p>24 Executors Available</p>
               <p>Last Updated: Today</p>
-              <p>Version: 1.5 Professional Alpha</p>
+              <p>Version: 1.0 Professional</p>
             </div>
           </div>
         </div>
