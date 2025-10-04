@@ -1,6 +1,6 @@
 // app/layout.js
 import './globals.css';
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/Sidebar'; // Adjust this path
 
 export const metadata = {
   title: 'RCheatz Hub • v1.0 Professional',
