@@ -1,25 +1,22 @@
-import '../styles/style.css';
-import Sidebar from '../components/sidebar.js';
-
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+// app/layout.js
+import './globals.css';
+import Sidebar from '../components/Sidebar';
 
 export const metadata = {
-  title: 'RCheatz Hub',
+  title: 'RCheatz Hub • v1.0 Professional',
   description: 'The ultimate free executor link hub. Fast, simple, and professional.',
-  keywords: 'RCheatz, executor, roblox executor, free executor, cheats, roblox cheats',
-  icons: {
-    icon: '/favicon.ico',
-  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
-        <Analytics />
-        <SpeedInsights />
+        <div className="flex min-h-screen">
+          <Sidebar />
+          <main className="flex-1 md:ml-64">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
