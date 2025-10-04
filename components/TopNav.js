@@ -8,7 +8,7 @@ export default function TopNav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white p-4 sticky top-0 z-50">
+    <nav className="bg-gray-900 text-white p-4 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold text-indigo-400">RCheatz</div>
         
@@ -36,7 +36,7 @@ export default function TopNav() {
         
         {/* Mobile menu button */}
         <button 
-          className="md:hidden"
+          className="md:hidden p-2 rounded-md bg-gray-800"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
