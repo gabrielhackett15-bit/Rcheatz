@@ -1,4 +1,4 @@
-// components/Sidebar.js (or app/components/Sidebar.js)
+// components/Sidebar.js
 'use client';
 
 import { useState } from 'react';
@@ -47,6 +47,11 @@ export default function Sidebar() {
             <li className="mb-2">
               <Link href="/version">
                 <a className="block py-2 px-4 rounded hover:bg-gray-700">Versions</a>
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/history">
+                <a className="block py-2 px-4 rounded hover:bg-gray-700">History</a>
               </Link>
             </li>
           </ul>
