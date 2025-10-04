@@ -9,59 +9,54 @@ export default function SideSidebar() {
 
   return (
     <>
-      {/* Mobile menu button - positioned correctly on screen */}
+      {/* Mobile menu button - positioned correctly */}
       <button 
-        className="md:hidden fixed top-16 left-4 z-50 p-2 rounded-md bg-gray-800 text-white"
+        className="md:hidden fixed top-12 left-2 z-50 p-1 bg-gray-800 text-white rounded"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
 
-      {/* Side Sidebar */}
-      <div className={`fixed md:sticky top-16 left-0 h-[calc(100vh-4rem)] w-64 bg-gray-900 text-white transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition duration-300 ease-in-out z-40 overflow-y-auto border-r border-gray-800`}>
-        <div className="p-4">
-          <h2 className="text-xl font-bold mb-6">Navigation</h2>
-          <ul className="space-y-2">
+      {/* Side Sidebar - Simplified */}
+      <div className={`fixed md:sticky top-12 left-0 h-[calc(100vh-3rem)] w-48 bg-gray-900 text-white transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition duration-300 ease-in-out z-40 overflow-y-auto border-r border-gray-800`}>
+        <div className="p-3">
+          <h2 className="text-lg font-bold mb-4">Navigation</h2>
+          <ul className="space-y-1 text-sm">
             <li>
               <Link href="/">
-                <a className="block py-2 px-4 rounded hover:bg-gray-800 transition-colors">Home</a>
+                <a className="block py-1 px-3 rounded hover:bg-gray-800">Home</a>
               </Link>
             </li>
             <li>
               <Link href="/executors">
-                <a className="block py-2 px-4 rounded hover:bg-gray-800 transition-colors">Executors</a>
+                <a className="block py-1 px-3 rounded hover:bg-gray-800">Executors</a>
               </Link>
             </li>
             <li>
               <Link href="/edits">
-                <a className="block py-2 px-4 rounded hover:bg-gray-800 transition-colors">Edits</a>
+                <a className="block py-1 px-3 rounded hover:bg-gray-800">Edits</a>
               </Link>
             </li>
             <li>
               <Link href="/disclaimer">
-                <a className="block py-2 px-4 rounded hover:bg-gray-800 transition-colors">Disclaimer</a>
+                <a className="block py-1 px-3 rounded hover:bg-gray-800">Disclaimer</a>
               </Link>
             </li>
             <li>
               <Link href="/version">
-                <a className="block py-2 px-4 rounded hover:bg-gray-800 transition-colors">Versions</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/history">
-                <a className="block py-2 px-4 rounded hover:bg-gray-800 transition-colors">History</a>
+                <a className="block py-1 px-3 rounded hover:bg-gray-800">Versions</a>
               </Link>
             </li>
           </ul>
           
-          <div className="mt-8 pt-6 border-t border-gray-800">
-            <h3 className="text-lg font-semibold mb-3">Quick Stats</h3>
-            <div className="space-y-2 text-sm text-gray-400">
-              <p>24 Executors Available</p>
-              <p>Last Updated: Today</p>
-              <p>Version: 1.0 Professional</p>
+          <div className="mt-6 pt-3 border-t border-gray-800">
+            <h3 className="text-sm font-semibold mb-2">Stats</h3>
+            <div className="space-y-1 text-xs text-gray-400">
+              <p>24 Executors</p>
+              <p>Updated: Today</p>
+              <p>v1.0 Professional</p>
             </div>
           </div>
         </div>
