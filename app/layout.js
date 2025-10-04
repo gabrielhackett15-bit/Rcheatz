@@ -1,24 +1,19 @@
-// app/layout.js
 import './globals.css';
-import TopNav from '../components/TopNav';
-import SideSidebar from '../components/SideSidebar';
+import Navigation from '../components/Navigation';
 
 export const metadata = {
-  title: 'RCheatz Hub • v1.0 Professional',
-  description: 'The ultimate free executor link hub. Fast, simple, and professional.',
+  title: 'Rcheatz - Free Roblox Executors',
+  description: 'Your hub for free Roblox executors',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gray-900 text-white">
-        <TopNav />
-        <div className="flex">
-          <SideSidebar />
-          <main className="flex-1 md:ml-48 p-3 md:p-6">
-            {children}
-          </main>
-        </div>
+      <body>
+        <Navigation />
+        <main className="main-content">
+          {children}
+        </main>
       </body>
     </html>
   );
